@@ -259,7 +259,7 @@ public class StartWindow extends JFrame implements ActionListener {
 
         sequencer = MidiSystem.getSequencer();
 
-        var sequence = MidiSystem.getSequence(new File("level8.mid"));
+        var sequence = MidiSystem.getSequence(new File("infinityspace.mid"));
 
         sequencer.open();
         sequencer.setSequence(sequence);
